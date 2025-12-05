@@ -2,8 +2,7 @@ package cf.vaadin.hackaton;
 
 import com.vaadin.flow.component.dependency.StyleSheet;
 import com.vaadin.flow.component.page.AppShellConfigurator;
-import com.vaadin.flow.theme.Theme;
-import com.vaadin.flow.theme.lumo.Lumo;
+import com.vaadin.flow.theme.aura.Aura;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -15,9 +14,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
-@StyleSheet(Lumo.STYLESHEET)
+@StyleSheet(Aura.STYLESHEET)
 @StyleSheet("styles.css")
-@Theme(value = "v25-hackaton")
 public class Application implements AppShellConfigurator {
 
     public static void main(String[] args) {
