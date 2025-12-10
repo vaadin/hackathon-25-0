@@ -5,3 +5,5 @@ Tested:
   * Worked fine, but no smooth animation to be seen
 * Hot reload of styles in META-INF/resources/styles.css 
   * Worked fine 
+* Server mcp.vaadin.com
+  * Made a huge difference for Claude Code when I enabled it, for the better
